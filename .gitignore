@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+.env
+
+# Expo
+.expo/
+.expo-shared/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native
+android/
+ios/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Miscellaneous
+coverage/
+dist/
+
+# Build artifacts
+build/
+*.iml
+
+# Firebase
+firebase-debug.log
+firebase-debug.*.log
+
+
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/

@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "firebase:sync": "node scripts\\syncFirebaseUsers.js",
+    "dev": "nodemon --inspect=9229 server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "firebase-admin": "^13.1.0",
+    "geolib": "^3.3.4",
+    "helmet": "^8.1.0",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.10.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "shortid": "^2.2.17",
+    "socket.io": "^4.8.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
